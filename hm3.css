@@ -1,0 +1,51 @@
+.big-block {
+  height: 450px;
+  width: 600px;
+  background: burlywood;
+}
+.block1{
+  height: 100px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.kode{
+  margin-left: 40px;
+  height: 30px;
+  width: 90px;
+  background: #343c4b;
+  border-radius: 10px;
+
+}
+.fa-magnifying-glass{
+  color: #0f3286;
+  font-size: 20px;
+  position: absolute;
+  margin: 80%;
+}
+.fa-grip-lines{
+  color: #0f3286;
+  font-size: 20px;
+  position: absolute;
+  margin: 90%;
+}
+
+.block2 {
+  height: 200px;
+  width: 600px;
+  background: #b3d4fc;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.card {
+  height: 100px;
+  width: 100px;
+  background: #343c4b;
+  display: flex;
+  top: 60px;
+  position: relative;
+}
